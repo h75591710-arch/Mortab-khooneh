@@ -1,0 +1,20 @@
+name: moratab_khooneh
+description: Moratab Khooneh recycling collection and scrap purchasing app
+publish_to: 'none'
+version: 0.4.0+4
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
